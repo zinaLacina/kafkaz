@@ -1,5 +1,6 @@
 package com.zina.kafkaz.config;
 
+import com.google.common.base.Predicate;
 import org.springframework.boot.autoconfigure.condition.*;
 import org.springframework.context.annotation.*;
 import org.springframework.http.*;
@@ -8,8 +9,6 @@ import springfox.documentation.builders.*;
 import springfox.documentation.spi.*;
 import springfox.documentation.spring.web.plugins.*;
 import springfox.documentation.swagger2.annotations.*;
-
-import java.util.function.Predicate;
 
 /**
  * @author : lacinazina
